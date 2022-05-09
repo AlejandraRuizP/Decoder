@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300&family=Montserrat&display=swap');
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+   
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f9f3fc;
+    color:#6086cc;
+    font-size: 20px;
+}
+
+
+.container{
+    margin: auto;
+    margin-top: 2%;
+    width: 60vw;
+    height: 100vh;
+    padding: 5px;
+    align-items: center;
+    position: relative;
+    
+   
+    
+}
+
+.logo{
+    width: 100%;
+    float: left;
+    
+}
+#tittle{
+    float: inherit;
+    margin-left: 20%;
+}
+#avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 5%;
+    float: inherit;
+    float: left;
+}
+
+.left{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    background-color: #f9f3fc;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+#input{
+    width: 70%;
+    height: 50vh ;
+    background-color: #f9f3fc;
+
+}
+
+.rigth{
+    margin: auto;
+    width: 70%;
+    height: auto;
+    border-radius: 25px;
+    background-color:white;
+    text-align: center;
+    align-items: center;
+}
+#muñeco{
+    width: 30px;
+    height: 30px;
+}
+
+#output{
+    width: 80%;
+}
+
+#muñeco{
+    margin-top: 10%;
+    width: 82%;
+    height: 82%;
+    display: inline;
+}
+
+textarea{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    padding-top: 10%;
+}
+
+#encrypt{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color:#6086cc;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    float: center;
+}
+
+#decrypt{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: white;
+    color:#6086cc;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    float: center;
+}
+
+
+
+#copy{
+    width: 90%;
+    height: 40px;
+    display: none;
+    background-color:#6086cc;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    float: center;
+    
+}
+
+#pie{
+    text-align: center;
+    
+    margin: auto;
+}
+
+::placeholder{
+    color: #6086cc;
+}
+
+#copy:hover{
+    background-color: #7fa3e6;
+}
+
+#decrypt:hover{
+    background-color: #7fa3e6;
+}
+
+#encrypt:hover{
+    background-color: #7fa3e6;
+}
+
+
